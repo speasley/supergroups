@@ -21,7 +21,7 @@
 	display:none;height:254px;left:0;margin:0 auto;
 	padding:35px 0 0 35px;top:0;width:260px;z-index:100;
 }
-#tip p,#tip h3{color:#333;font:lighter 16px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;text-shadow: 1px 1px #ccc;width:230px;}
+#tip p,#tip h3{color:#333;font:normal 16px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;text-shadow: 1px 1px #ccc;width:230px;}
 #tip h3{font-size:19px;font-style:italic;line-height:24px;margin-bottom:10px;text-transform:uppercase;}
 #playArea{height:285px;overflow:hidden;}
 #playStrip ul{width:2500px;}
@@ -37,7 +37,7 @@
 	display:none;height:422px;left:0;margin-top:-100px;
 	padding:0;top:0;width:919px;z-index:100;
 }
-#intro h2,#intro p{color:#666;font:lighter 19px/24px "Helvetica Neue", Arial, Helvetica, sans-serif;margin:0 auto 25px;text-align:center;width:285px;}
+#intro h2,#intro p{color:#666;font:normal 19px/24px "Helvetica Neue", Arial, Helvetica, sans-serif;margin:0 auto 25px;text-align:center;width:285px;}
 #intro h2{font-size:24px;font-weight:bold;line-height:30px;margin:125px auto 15px;}
 #intro a.start{
 	background:#8caf48;

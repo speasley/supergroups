@@ -267,11 +267,13 @@ function groupPass(which){
 	//set content of modal
 	$('#tip').html(tip[which]);
 	//Twitter button biz
+	/*
 	$('#tip').append('<div style="margin:20px 30px 0 0;text-align:right;"><a href="http://twitter.com/share" class="twitter-share-button" data-text="How many pop culture groups do you know? Play #supergroups and find out! RT this to win a t-shirt from @minigroupnews. http://ow.ly/9Wfcn" data-count="none" data-via="">Tweet</a></div>');
 	$('a[data-text]').each(function(){
 	      $(this).attr('data-text', tweet[which]);
     });
     $.getScript('http://platform.twitter.com/widgets.js');
+	*/
 	$('#tip').append('<a class="tip_close" href="#"></a>');
 	setTimeout("$('#right').css('display','block');$('#right').animate({'opacity':1}, 250)",250);
 	setTimeout("$('#right p#scoresummary span').effect('pulsate', { times:12 }, 175)",300);
@@ -335,7 +337,7 @@ function prizeClaim(prize){
 				$('#playArea div').append('<h2>Super, grouper!</h2>');
 				$('#playArea div').append('<h3>Now make your own Super Group!</h3>');
 				$('#playArea div').append('<p>The free shirts are gone, but we won&rsquo;t leave you empty-handed. Sign up for a free 30-day trial of Minigroup and find out how having a dedicated space for online collaboration can help your groups work better together.</p>');
-				$('#playArea div').append('<a href="https://minigroup.com/register?h=trial" class="try">Try it free for 30 days<br /><span>No credit card required</span></a>');
+				$('#playArea div').append('<a href="#" class="try">Try it free for 30 days<br /><span>No credit card required</span></a>');
 			break;
 		}
 		$('#playArea').animate({'opacity':1},1000);
