@@ -1,0 +1,83 @@
+@media only screen and (min-width:800px){
+	#gameContainer.tshirt #playArea{background:transparent url('../images/bg-tshirt.gif') no-repeat 50% 30px;}
+}
+
+@media only screen and (min-width:800px){
+	#gameContainer.trial #playArea{background:transparent url('../images/bg-trial.gif') no-repeat 50% 30px;}
+}
+
+@media only screen and (min-width:800px){
+	#gameContainer.tshirt #playArea div img{display:none;}
+}
+
+#gameContainer.tshirt #playArea div,#gameContainer.trial #playArea div{margin:0 auto;padding:60px 0 0 0;text-align:left;width:285px;}
+#gameContainer.tshirt #playArea div h2,#gameContainer.trial #playArea div h2{color:#333;font:lighter 26px/28px "Helvetica Neue", Arial, Helvetica, sans-serif;margin:0 0 8px 0;}
+#gameContainer.tshirt #playArea div h2.won{display:none;}
+#gameContainer.tshirt #playArea div h3,#gameContainer.trial #playArea div h3{color:#333;font:bold 14px/16px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;margin:0 0 10px 0;}
+#gameContainer.tshirt #playArea div p,#gameContainer.trial #playArea div p{color:#333;font:normal 11px/16px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;margin:0 0 18px 0;}
+#gameContainer.tshirt #playArea div a.login,#gameContainer.tshirt #playArea div a.register{
+	background:#999;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	color:#fff;font:bold 13px/15px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin:0 0 18px 0;
+	padding:5px 15px 7px 15px;
+}
+#gameContainer.tshirt #playArea div a.register{
+	background:#a3b571;
+	padding:5px 15px 7px 15px;
+}
+#gameContainer.tshirt #playArea div span,#gameContainer.trial #playArea div span{color:#505050;font:bold 12px/14px "Helvetica Neue", Arial, Helvetica, sans-serif;text-transform:uppercase;margin:0 6px 0 7px;text-align:center;}
+#gameContainer.trial #playArea div a.try{
+	-webkit-box-shadow:rgba(0, 0, 0, 0.296875) 0px 1px 0px 0px;
+	-webkit-font-smoothing:antialiased;
+	background-image:-webkit-linear-gradient(top, #8FB44C 0%, #8BAF4A 50%, #8FB44C 51%, #8CAF4B 100%);
+	border-bottom:1px solid #718D3B;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	box-shadow:rgba(0, 0, 0, 0.296875) 0px 1px 0px 0px;
+	color:#fff;
+	cursor: pointer;
+	display: inline-block;
+	font:bold 24px/15px 'Helvetica Neue', Helvetica, FreeSans, sans-serif;
+	height:35px;
+	margin:2px 5px 2px 2px;
+	padding:12px 25px 6px 25px;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	text-rendering:optimizelegibility;
+	text-shadow:rgba(0, 0, 0, 0.398438) 0px 1px 1px;
+	vertical-align:baseline;
+	white-space:nowrap;
+	width:239px;
+}
+
+#gameContainer.trial #playArea div a.try span{
+	-webkit-font-smoothing:antialiased;
+	background-image:none;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border-bottom-style:none;
+	border-bottom-width:0px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	color:#63763F;
+	cursor:pointer;
+	display:inline;
+	font-family:bold 11px/14px 'Helvetica Neue', Helvetica, FreeSans, sans-serif;
+	height: auto;
+	margin:3px 0 0 0;
+	padding:0;
+	position:static;
+	text-align:center;
+	text-decoration:none;
+	text-rendering:optimizelegibility;
+	text-shadow:rgba(255, 255, 255, 0.398438) 0px 1px 1px;
+	text-transform:none;
+	vertical-align:baseline;
+	white-space:nowrap;
+	width:auto;
+}

@@ -1,0 +1,20 @@
+body.iOS #audiotoggle{display:none;}
+
+@media only screen and (max-width:320px){
+	body.iOS #gameContainer{margin:0;width:auto;}
+	body.iOS #intro{background:transparent url('../images/start-screen-mobile.gif') no-repeat 50% 0;}
+	body.iOS #score{height:20px;}
+	body.iOS #playArea{width:300px;}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+	body.iOS #gameContainer{margin:0;width:auto;}
+	body.iOS #score{height:20px;}
+	body.iOS #playArea{width:748px;}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){
+	body.iOS #gameContainer{margin:0;width:auto;}
+	body.iOS #score{height:20px;}
+	body.iOS #playArea{width:1004px;}
+}
